@@ -1,0 +1,215 @@
+body{
+   font-family: 'Roboto', sans-serif;;
+}
+
+.logo {
+   padding-top: 20px;
+   width: 80px;
+}
+
+.toggle {
+   display: inline-block;
+   width: 50%;
+}
+
+.Navbar {
+   z-index: 1;
+   padding-left: 50px;
+   padding-right: 50px;
+   }
+
+.txt-nav {
+   text-decoration: none !important;
+   margin-left: 20px;
+   color: black;
+   padding: 10px;
+}
+
+/* ------------Banner-------------- */
+
+#banner{
+   background-image: url('../img/banner1.png');
+   width: 100%;
+   height: 900px;
+   background-repeat: no-repeat;
+   padding-left: 100px;
+   margin-top: -350px;
+}
+
+#banner h1{
+   padding-top: 450px;
+   font-size: 90px;
+   font-weight: bolder;
+   width: 700px;
+}
+
+#banner p{
+   padding-bottom: 100px;
+   width: 700px;
+}
+
+/* -------------Themes-------------- */
+
+#themes {
+   height: 600px;
+   
+}
+
+#themes hr{
+   border: 3px solid rgb(255, 123, 0);
+   border-radius: 5px;
+   width: 200px;
+   margin-left: 100px;
+   opacity: 100%;
+}
+
+#themes h1{
+   font-size: 80px;
+   font-weight: bold;
+   text-align: center;
+}
+
+#themes p{
+   text-align: center;
+   font-size: 24px;
+   padding-bottom: 20px;
+}
+
+.themes-img{
+   margin: auto;
+   width: 1300px;
+   height: 350px;
+}
+
+.themes-img img{
+   width: 220px;
+   border-radius: 20px;
+   margin-left: 30px;
+}
+
+/* -----------our process------------------ */
+
+#our-process{
+   height: 600px;
+   padding-top: 30px;
+   background-color: rgb(255, 123, 0);
+}
+
+#our-process h1{
+   font-size: 80px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.p-process{
+   text-align: center;
+   font-size: 24px;
+}
+
+.main-box{
+   margin: auto;
+   width: 1200px;
+   height: 350px;
+   padding-top: 20px;
+}
+
+.box-process{
+   margin-left: 20px;
+   width: 200px;
+   height: 310px;
+   background-color: white;
+   border-radius: 10px;
+   display: inline-block;
+}
+
+.box-process img{
+   margin-left: 40px;
+}
+
+.box-process h2{
+   text-align: center;
+   font-weight: bold;
+}
+
+.box-process p{
+   margin-top: 20px;
+   width: 130px;
+   margin-left: 40px;
+   font-size: 14px;
+}
+
+/* --------------softcopy------------------- */
+
+#softcopy{
+   background-image: url('../img/softcopy.png');
+   text-align: center;
+}
+
+#softcopy h1{
+   font-size: 80px;
+   font-weight: bold;
+   padding-top: 100px;
+}
+
+#softcopy p{
+   padding-bottom: 180px;
+}
+
+/* -------------Contact Us------------------ */
+
+#contact-us{
+   height: 350px;
+   background-color: rgb(255, 123, 0);
+   margin-top: -20px;
+}
+
+#contact-us h1{
+   padding-top: 30px;
+   font-size: 80px;
+   font-weight: bold;
+   text-align: center;
+}
+
+#contact-us p{
+   text-align: center;
+}
+
+.sosmed{
+   width: 350px;
+   margin: auto;
+}
+
+.icon-sosmed{
+   margin-top: 50px;
+   display: inline-block;
+   margin-left: 22px;
+}
+
+.icon-sosmed img{
+   width: 60px;
+}
+
+
+/* --------------Address----------------- */
+
+#address{
+   background-image: url('../img/addres.png');
+   /* padding-top: 200px;
+   padding-bottom: 200px; */
+   height: 500px;
+}
+
+.box-address{
+   padding: 25px 20px 10px 40px;
+   position: relative;
+   top: 260px;
+   left: 50px;
+   width: 400px;
+   background-color: white;
+   border-radius: 10px;
+}
+
+.box-address h1{
+   font-size: 30px;
+   font-weight: bold;
+}
