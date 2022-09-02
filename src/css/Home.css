@@ -114,7 +114,7 @@ body{
 }
 
 .box-process{
-   margin-left: 20px;
+   margin-left: 31px;
    width: 200px;
    height: 310px;
    background-color: white;
@@ -123,9 +123,23 @@ body{
 }
 
 .box-process img{
-   margin-left: 40px;
+   width: 100px;
+   margin-left: 50px;
 }
 
+.img-payment{
+   margin-bottom: 20px;
+}
+
+.h2-pay{
+   position: relative;
+   top: -20px;
+}
+
+.p-pay{
+   position: relative;
+   top: -20px;
+}
 .box-process h2{
    text-align: center;
    font-weight: bold;
@@ -137,7 +151,6 @@ body{
    margin-left: 40px;
    font-size: 14px;
 }
-
 /* --------------softcopy------------------- */
 
 #softcopy{

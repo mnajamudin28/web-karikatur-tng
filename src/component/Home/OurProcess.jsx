@@ -14,33 +14,30 @@ const OurProcess = () => {
          <div className='main-box'>
             <div className='box-process'>
                <img src={icon1} alt="" />
-               <h2>concept</h2>
+               <h2>Concept</h2>
                <p>Send a photo of the object to be drawn to Email/Whatsapp,
                fill in the order form and specify a draft.</p>
             </div>
-            <div className='box-process'>
-               <img src={icon2} alt="" />
-               <h2>concept</h2>
-               <p>Send a photo of the object to be drawn to Email/Whatsapp,
-                  fill in the order form and specify a draft.</p>
+              <div className='box-process box-process-pay'>
+               <img src={icon2} alt="" className="img-payment"/>
+               <h2 className='h2-pay'>Payment</h2>
+               <p className='p-pay'>Make payment by transfer BCA/BRI/DANA or order via Tokopedia</p>
             </div>
             <div className='box-process'>
                <img src={icon3} alt="" />
-               <h2>concept</h2>
-               <p>Send a photo of the object to be drawn to Email/Whatsapp,
-                  fill in the order form and specify a draft.</p>
+               <h2>Process</h2>
+               <p>Orders enter the slot and will be processed according to the queue.</p>
             </div>
             <div className='box-process'>
                <img src={icon4} alt="" />
-               <h2>concept</h2>
-               <p>Send a photo of the object to be drawn to Email/Whatsapp,
-                  fill in the order form and specify a draft.</p>
+               <h2>Revision</h2>
+               <p>If the results of the image are not suitable, then revisions can be made.</p>
             </div>
             <div className='box-process'>
                <img src={icon5} alt="" />
-               <h2>concept</h2>
-               <p>Send a photo of the object to be drawn to Email/Whatsapp,
-                  fill in the order form and specify a draft.</p>
+               <h2>Final</h2>
+               <p>The final image will be sent using J&T / Grab / 
+                  Gojek or JPG/PNG file if only Softcopy message.</p>
             </div>
          </div>
       </div>
