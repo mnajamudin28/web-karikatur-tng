@@ -75,19 +75,35 @@ body{
    padding-bottom: 20px;
 }
 
-.themes-img{
+.img-container{
    margin: auto;
    width: 1000px;
    height: 350px;
 }
 
-.themes-img img{
-   width: 220px;
+.img-theme img{
+   width: 230px;
    border-radius: 20px;
+   z-index: -1;
+   position: relative;
+   transition: transform .3s;
 }
 
-.swiper-scrollbar-drag{
-   color: blue;
+.img-theme:hover img{
+   transform: scale(0.95);
+}
+
+.text-img {
+   width: 230px;
+   height: 100px;
+   background: rgb(0, 0, 0);
+   background: linear-gradient(0deg, rgba(0, 0, 0, 1) 14%, rgba(0, 0, 0, 0) 100%);
+   border-bottom-left-radius: 23px;
+   border-bottom-right-radius: 23px;
+   position: absolute;
+   top: 238px;
+   padding-left: 20px;
+   color: white;
 }
 
 /* -----------our process------------------ */

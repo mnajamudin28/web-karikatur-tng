@@ -1,6 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, scrollbar } from 'swiper';
+import { Navigation} from 'swiper';
+import { Link } from "react-router-dom";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
@@ -20,7 +21,7 @@ const Themes = () => {
          <h1>Themes</h1>
          <p>This is the result of the caricature order to us so far.</p>
 
-         <div className='themes-img'>
+         <div className='img-container'>
           <Swiper
             // install Swiper modules
             modules={[Navigation]}
@@ -31,26 +32,74 @@ const Themes = () => {
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
           >
-            <SwiperSlide><a href="#"><div className='box-theme'></div><img src={graduation} alt="" /></a></SwiperSlide>
-            <SwiperSlide><a href="#"><img src={wedding} alt="" /></a></SwiperSlide>
-            <SwiperSlide><a href="#"><img src={family} alt="" /></a></SwiperSlide>
-            <SwiperSlide><a href="#"><img src={group} alt="" /></a></SwiperSlide>
-            <SwiperSlide><a href="#"><img src={kids} alt="" /></a></SwiperSlide>
-            <SwiperSlide><a href="#"><img src={friends} alt="" /></a></SwiperSlide>
-            <SwiperSlide><a href="#"><img src={uniform} alt="" /></a></SwiperSlide>
+            <SwiperSlide>
+              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+                <div className='img-theme'>
+                  <img src={graduation} alt="" />
+                </div>
+                <div className='text-img'> <h3>Graduation <br /> Caricatures</h3> 
+                </div>  
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+                <div className='img-theme'>
+                  <img src={wedding} alt="" />
+                </div>
+                <div className='text-img'> <h3>Wedding <br /> Caricatures</h3>
+                </div>
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+                <div className='img-theme'>
+                  <img src={family} alt="" />
+                </div>
+                <div className='text-img'> <h3>Family <br /> Caricatures</h3>
+                </div>
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+                <div className='img-theme'>
+                  <img src={group} alt="" />
+                </div>
+                <div className='text-img'> <h3>Group <br /> Caricatures</h3>
+                </div>
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+                <div className='img-theme'>
+                  <img src={kids} alt="" />
+                </div>
+                <div className='text-img'> <h3>Kids <br /> Caricatures</h3>
+                </div>
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+                <div className='img-theme'>
+                  <img src={friends} alt="" />
+                </div>
+                <div className='text-img'> <h3>Friends <br /> Caricatures</h3>
+                </div>
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+                <div className='img-theme'>
+                  <img src={uniform} alt="" />
+                </div>
+                <div className='text-img'> <h3>Uniform <br /> Caricatures</h3>
+                </div>
+              </Link>
+            </SwiperSlide>
+            
           </Swiper>
-          
-          
-          
-          
-          
-          
-          
          </div>     
-
-      </div>
-      
-    </div>
+      </div>    
+    </div> 
   )
 }
 
