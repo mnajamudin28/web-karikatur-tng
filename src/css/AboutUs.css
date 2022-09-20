@@ -1,0 +1,48 @@
+.judul-about{
+   position: relative;
+   display: block;
+}
+
+.judul-about h1{
+   font-size: 72px;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.judul-about p{
+   width: 600px;
+   position: absolute;
+   top: 100px;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   z-index: 1;
+}
+
+.judul-about img{
+   margin-top: 100px;
+   width: 100%;
+   z-index: -1;
+}
+
+.address-about{
+   background-image: url(../img/aboutus2.png);
+   height: 500px;
+}
+
+.box-address-about {
+   padding: 25px 20px 25px 30px;
+   margin: auto;
+   position: relative;
+   top: 150px;
+   width: 500px;
+   background-color: rgba(255, 255, 255, 0.788);
+   border-radius: 10px;
+}
+
+.box-address h1 {
+   font-size: 30px;
+   font-weight: bold;
+}

@@ -16,10 +16,11 @@ const Header = () => {
               <div className='toggle'>
               </div>
               <Nav className="me-auto">
-                 <Link to="/how-to-order" className='txt-nav'>How to order</Link>
-                 <Link to="/themes" className='txt-nav'>Themes</Link>
-                 <Link to="/contact" className='txt-nav'>Contact</Link>
-                 <Link to="/aboutus" className='txt-nav'>About us</Link>
+               
+                 <a href="#our-process" rel="noopener noreferrer" className='txt-nav'>How to Order</a>
+                 <a href="#themes" rel="noopener noreferrer" className='txt-nav'>Themes</a>
+                 <a href="#contact-us" rel="noopener noreferrer" className='txt-nav'>Contact</a>
+                 <Link to="/about-us" className='txt-nav'>About us</Link>
               </Nav>
            </Container>
         </Navbar>

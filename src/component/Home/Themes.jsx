@@ -42,7 +42,7 @@ const Themes = () => {
               </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+              <Link style={{ textDecoration: 'none' }} to='/wedding'>
                 <div className='img-theme'>
                   <img src={wedding} alt="" />
                 </div>
@@ -51,7 +51,7 @@ const Themes = () => {
               </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+              <Link style={{ textDecoration: 'none' }} to='/family'>
                 <div className='img-theme'>
                   <img src={family} alt="" />
                 </div>
@@ -60,7 +60,7 @@ const Themes = () => {
               </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+              <Link style={{ textDecoration: 'none' }} to='/group'>
                 <div className='img-theme'>
                   <img src={group} alt="" />
                 </div>
@@ -69,7 +69,7 @@ const Themes = () => {
               </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+              <Link style={{ textDecoration: 'none' }} to='/kids'>
                 <div className='img-theme'>
                   <img src={kids} alt="" />
                 </div>
@@ -78,7 +78,7 @@ const Themes = () => {
               </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+              <Link style={{ textDecoration: 'none' }} to='/friends'>
                 <div className='img-theme'>
                   <img src={friends} alt="" />
                 </div>
@@ -87,7 +87,7 @@ const Themes = () => {
               </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Link style={{ textDecoration: 'none' }} to='/graduation'>
+              <Link style={{ textDecoration: 'none' }} to='/uniform'>
                 <div className='img-theme'>
                   <img src={uniform} alt="" />
                 </div>
