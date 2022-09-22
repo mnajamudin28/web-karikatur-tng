@@ -49,9 +49,9 @@ const Family = () => {
             <div className='fam-item9'><img src={fam9} alt="" /></div>
             <div className='fam-item10'><img src={fam10} alt="" /></div>
          </div>
-         <div className='order-now-box'>
-            <a href="https://api.whatsapp.com/message/BIGQ27OGL3GZJ1?autoload=1&app_absent=0">Order Now</a>
-         </div>
+            <div className='order-now-box'>
+               <a href="https://api.whatsapp.com/message/BIGQ27OGL3GZJ1?autoload=1&app_absent=0">Order Now</a>
+            </div>
       </div>
    )
 }

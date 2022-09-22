@@ -2,9 +2,10 @@ import React from 'react'
 import '../css/AboutUs.css'
 import aboutus1 from '../img/aboutus1.png'
 import ContactUs from '../component/Home/ContactUs'
-import { Navbar, Container,} from 'react-bootstrap';
+import { Navbar, Container, Nav,} from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../img/STAMP.png'
+import logo from '../img/img/STAMP.png'
 
 const AboutUs = () => {
   return (
@@ -16,6 +17,9 @@ const AboutUs = () => {
           </Navbar.Brand>
           <div className='toggle'>
           </div>
+          <Nav className="me-auto">
+            <Link to="/" className='txt-nav-themes'>Back</Link>
+          </Nav>
         </Container>
       </Navbar>
       <div className='judul-about'>
