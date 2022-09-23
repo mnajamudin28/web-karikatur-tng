@@ -52,15 +52,26 @@
 }
 
 
-@media (max-width: 645px){
+@media (max-width: 600px){
+
+   .logo-about{
+      width: 60px;
+      margin-left: -40px;
+   }
    
+   .toggle-about{
+      width: 80px;
+   }
+
    .judul-about {
       position: relative;
       display: block;
    }
 
    .judul-about h1 {
-      font-size: 52px;
+      width: 300px;
+      margin: auto;
+      font-size: 42px;
       font-weight: bold;
       text-align: center;
       margin-bottom: 20px;
@@ -68,11 +79,11 @@
    }
 
    .judul-about p {
-      width: 350px;
+      width: 300px;
       font-size: 15px;
       line-height: 16px;
       position: absolute;
-      top: 80px;
+      top: 60px;
       left: 0;
       right: 0;
       bottom: 0;
@@ -90,47 +101,29 @@
 
    .address-about {
       background-image: url(../img/aboutus2.png);
-      height: 500px;
-   }
-
-   .box-address-about {
-      padding: 25px 20px 25px 30px;
-      margin: auto;
-      position: relative;
-      top: 150px;
-      width: 500px;
-      background-color: rgba(255, 255, 255, 0.788);
-      border-radius: 10px;
-   }
-
-   .box-address-about h1 {
-      font-size: 34px;
-      font-weight: bold;
-   }
-
-   .address-about {
-      background-image: url(../img/aboutus2.png);
       height: 300px;
    }
 
    .box-address-about {
-      padding: 16px 35px 5px 30px;
-      margin: auto;
       position: relative;
+      margin: auto;
       top: 70px;
-      width: 300px;
+      width: 250px;
       background-color: rgba(255, 255, 255, 0.788);
       border-radius: 10px;
+      padding-left: 30px;
+      padding-top: 20px;
+      padding-bottom: 5px;
    }
 
    .box-address-about h1 {
-      width: 240px;
-      font-size: 20px;
+      width: 200px;
+      font-size: 16px;
       font-weight: bold;
    }
 
    .box-address-about p{
-      width: 240px;
+      width: 200px;
       font-size: 14px;
    }
 

@@ -188,13 +188,19 @@
 }
 
 @media (max-width: 645px){
-   .Navbar{
-      width: 400px;
+
+   .navbar{
+      width: 300px;
       margin: auto;
    }
 
+   .logo-theme{
+      width: 80px;
+      margin-left: -50px;
+   }
+
    .txt-nav-themes {
-      margin-left: 190px;
+      margin-left: 170px;
       font-size: 24px;
       color: black;
       text-decoration: none !important;

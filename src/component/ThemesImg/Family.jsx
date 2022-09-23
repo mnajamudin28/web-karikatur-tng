@@ -20,10 +20,10 @@ const Family = () => {
    return (
       <div>
          <div>
-            <Navbar variant="light" className='Navbar'>
+            <Navbar variant="light" className='navbar'>
                <Container>
                   <Navbar.Brand href="/">
-                     <img src={logo} alt="" className='logo' />
+                     <img src={logo} alt="" className='logo-theme' />
                   </Navbar.Brand>
                   <div className='toggle'>
                   </div>

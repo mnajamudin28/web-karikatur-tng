@@ -10,12 +10,12 @@ import logo from '../img/img/STAMP.png'
 const AboutUs = () => {
   return (
     <div id='about-us'>
-      <Navbar variant="light" className='Navbar'>
+      <Navbar variant="light" className='navbar'>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="" className='logo' />
+            <img src={logo} alt="" className='logo-about' />
           </Navbar.Brand>
-          <div className='toggle'>
+          <div className='toggle-about'>
           </div>
           <Nav className="me-auto">
             <Link to="/" className='txt-nav-themes'>Back</Link>
