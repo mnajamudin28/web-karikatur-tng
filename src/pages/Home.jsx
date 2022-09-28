@@ -6,11 +6,15 @@ import OurProcess from '../component/Home/OurProcess.jsx'
 import Softcopy from '../component/Home/Softcopy.jsx'
 import Themes from '../component/Home/Themes.jsx'
 import Address from '../component/Home/Address.jsx'
+import Navigation from '../component/Home/Navigation.jsx'
+
+
 
 const Home = () => {
   return (
     <div>
       <Header />
+      <Navigation/>
       <Banner />
       <Themes />
       <OurProcess />

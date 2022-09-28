@@ -1,0 +1,148 @@
+   .nav-mobile {
+      width: 100%;
+      height: 5em;
+      background-color: blue;
+      display: flex;
+      justify-content: flex-start;
+      padding: 1em;
+   }
+
+   .burger-menu {
+      height: 100%;
+      width: 4em;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      cursor: pointer;
+      background-color: red;
+   }
+
+   .burger-bar {
+      width: 4em;
+      height: 0.5em;
+      background-color: aqua;
+      border-radius: 0.5em;
+   }
+
+   .menu {
+      width: 50%;
+      height: 100vh;
+      background-color: aquamarine;
+      position: absolute;
+      top: 0;
+      z-index: -1;
+   }
+
+   /* ---------sliding menu------------- */
+
+   .hidden {
+      display: none;
+   }
+
+   .visible {
+      display: inherit;
+   }
+
+   /* ---------animation------------ */
+   /* clicked */
+   .burger-bar.clicked:nth-child(1) {
+      transform: rotate(30deg) translate(0.75em, 1.15em);
+      transition: ease-out 0.5s;
+   }
+
+   .burger-bar.burger-bar.clicked:nth-child(2) {
+      transform: scale(0.1);
+      transition: ease-out 0.5s;
+   }
+
+   .burger-bar.burger-bar.clicked:nth-child(3) {
+      transform: rotate(145deg) translate(-0.70em, 0.90em);
+      transition: ease-out 0.5s;
+   }
+
+   /* unclicked */
+   .burger-bar.unclicked {
+      transform: rotate(0) translate(0);
+      transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+   }
+
+   /* -----dari unpas------------- */
+   body {
+      overflow-x: hidden;
+   }
+
+   nav ul {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100vh;
+      width: 50%;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      background-color: aqua;
+      transform: translateX(100%);
+      transition: all 1s;
+   }
+
+   nav ul.slide {
+      transform: translateX(0);
+   }
+
+   .txt-nav {
+      font-size: 24px;
+      text-decoration: none;
+   }
+
+   .menu-toggle {
+      position: absolute;
+      right: 200px;
+      top: 20px;
+      display: flex;
+      flex-direction: column;
+      height: 20px;
+      justify-content: space-between;
+   }
+
+   .menu-toggle input {
+      position: absolute;
+      width: 40px;
+      height: 28px;
+      right: -5px;
+      top: -4px;
+      opacity: 40%;
+      cursor: pointer;
+      z-index: 2;
+   }
+
+   .menu-toggle span {
+      display: block;
+      width: 28px;
+      height: 3px;
+      background-color: black;
+      border-radius: 3px;
+      transition: 0.5s;
+   }
+
+   /* burger menu animation */
+
+   .menu-toggle span:nth-child(2) {
+      transform-origin: 0 0;
+   }
+
+   .menu-toggle input:checked~span:nth-child(2) {
+      transform: rotate(45deg) translate(-1px, 0);
+   }
+
+   .menu-toggle span:nth-child(4) {
+      transform-origin: 0 100%;
+   }
+
+   .menu-toggle input:checked~span:nth-child(4) {
+      transform: rotate(-45deg) translate(0, 0);
+   }
+
+   .menu-toggle input:checked~span:nth-child(3) {
+      transform: scale(0);
+   }
